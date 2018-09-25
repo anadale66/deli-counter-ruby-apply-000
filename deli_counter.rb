@@ -15,7 +15,7 @@ def line(customer_list)
   
 end
 
-def take_a_number(customer_list, name)
+def take_a_number(customer_list)
   customer_list << name 
   puts "Welcome, #{name}. You are number #{customer_list.length} in line."
 end

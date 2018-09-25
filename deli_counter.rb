@@ -1,33 +1,5 @@
-katz_deli = []
-
-def line(customer_list)
-  if customer_list.empty? 
-    puts "The line is currently empty."
-  else
-    position = ""
-    i = 0 
-    while i < customer_list.length 
-      position << " #{i + 1}. #{customer_list[i]}"
-      i += 1
-    end
-     puts "The line is currently:#{position}"
+i = 0 
+  while i < string_split.length
+    string_split[i]
+    i += 1
   end
-  
-end
-
-def take_a_number(customer_list)
-  customer_list 
-  customer_number = num    
-  customer_list << customer_number 
-  num += 1 
-  puts "WelcomeYou are number #{customer_list.length} in line."
-end
-
-def now_serving(customer_list)
-  if customer_list.empty?
-    puts "There is nobody waiting to be served!"
-  else
-    puts "Currently serving #{customer_list[0]}."
-    customer_list.shift
-  end
-end

@@ -16,8 +16,11 @@ def line(customer_list)
 end
 
 def take_a_number(customer_list)
-  customer_list << name 
-  puts "Welcome, #{name}. You are number #{customer_list.length} in line."
+  customer_list 
+  customer_number = num    
+  customer_list << customer_number 
+  num += 1 
+  puts "WelcomeYou are number #{customer_list.length} in line."
 end
 
 def now_serving(customer_list)
